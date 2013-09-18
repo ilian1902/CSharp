@@ -1,6 +1,5 @@
 C Sharp Introduction
-==================
-C # Introduction
+=======================================================================================================
 
 1. Create, compile and run a “Hello C#” console application.
 2. Create console application that prints your first and last name.
@@ -10,3 +9,4 @@ C # Introduction
 6. Write a program that prints the first 10 members of the sequence: 2, -3, 4, -5, 6, -7, ...
 7. Write a program to read your age from the console and print how old you will be after 10 years.
 
+=======================================================================================================
