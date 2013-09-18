@@ -1,5 +1,6 @@
-PrimitiveDataTypesAndVariables
-==============================
+Primitive Data Types And Variables
+=========================================================================================================================================================================================================================================================================================================================================================
+
 01.Declare five variables choosing for each of them the most appropriate of the types byte, sbyte, short, ushort, int, uint, long, ulong to represent the following values: 52130, -115, 4825932, 97, -10000.
 
 02.Which of the following values can be assigned to a variable of type float and which to a variable of type double: 34.567839023, 12.345, 8923.1234857, 3456.091?
@@ -29,4 +30,4 @@ PrimitiveDataTypesAndVariables
 14.A bank account has a holder name (first name, middle name and last name), available amount of money (balance), bank name, IBAN, BIC code and 3 credit card numbers associated with the account. Declare the variables needed to keep the information for a single bank account using the appropriate data types and descriptive names.
 
 
-Primitive Data Types &amp; Variables
+=========================================================================================================================================================================================================================================================================================================================================================
