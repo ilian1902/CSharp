@@ -6,6 +6,9 @@ class AlternateNumberSigns
 {
     static void Main()
     {
+        Console.WriteLine("2, -3, 4, -5, 6, -7, 8, -9, 10, -11");
+
+        //or using 'for' loop
         byte counter = 10;
 
         Console.WriteLine("Enter the starting number of the sequence: ");

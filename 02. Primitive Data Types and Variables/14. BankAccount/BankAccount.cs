@@ -1,8 +1,11 @@
-﻿//A bank account has a holder name (first name, middle name and last name), 
-//available amount of money (balance), bank name, IBAN, BIC code 
-//and 3 credit card numbers associated with the account. 
-//Declare the variables needed to keep the information for a single bank account 
-//using the appropriate data types and descriptive names.
+﻿/*
+ * A bank account has a holder name (first name, middle name and last name), 
+ * available amount of money (balance), bank name, IBAN, BIC code 
+ * and 3 credit card numbers associated with the account. 
+ * Declare the variables needed to keep the information for a single bank account 
+ * using the appropriate data types and descriptive names.
+ */
+
 using System;
 class BankAccount
 {
@@ -19,9 +22,13 @@ class BankAccount
         ulong creditCard2 = 4539282220808;
         ulong creditCard3 = 4485502136624;
 
-        Console.WriteLine("{0} {1} {2}", firstName, middleName, lastName);
-        Console.WriteLine("Total ammount of:\n{0} leva in {1}", balance, bankName);
-        Console.WriteLine("Personal Account Information\nIBAN:{0}\nBIC:{1}", iban, bic);
-        Console.WriteLine("Credit Card(s) Number:\n{0}\n{1}\n{2}", creditCard1, creditCard2, creditCard3);
+        Console.WriteLine("{0} {1} {2}"
+                            , firstName, middleName, lastName);
+        Console.WriteLine("Total ammount of:\n{0} leva in {1}"
+                            , balance, bankName);
+        Console.WriteLine("Personal Account Information\nIBAN:{0}\nBIC:{1}"
+                            , iban, bic);
+        Console.WriteLine("Credit Card(s) Number:\n{0}\n{1}\n{2}"
+                            , creditCard1, creditCard2, creditCard3);
     }
 }

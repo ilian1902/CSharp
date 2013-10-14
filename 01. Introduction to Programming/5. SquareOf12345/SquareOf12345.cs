@@ -6,11 +6,13 @@ class SquareOf12345
 {
     static void Main()
     {
-        Console.WriteLine(12345 * 12345);
+        int number = 12345;
 
-        //Or the other method
+        Console.WriteLine(number * number);
 
-        double sq = Math.Pow(12345, 2);
+        //or the other method
+
+        double sq = Math.Pow(number, 2);
         Console.WriteLine(sq);
     }
 }

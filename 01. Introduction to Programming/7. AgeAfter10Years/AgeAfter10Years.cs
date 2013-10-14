@@ -6,22 +6,12 @@ class AgeAfter10Years
 {
     static void Main()
     {
-        int bYear;
-        int ageNow;
+        int currentYear = DateTime.Now.Year;
 
-        Console.WriteLine("Enter the year You have been born: ");
-        bYear = int.Parse(Console.ReadLine());
-        ageNow = DateTime.Now.Year - bYear;
+        Console.WriteLine("Enter the age You are/will be this year: " + currentYear);
+        int age = int.Parse(Console.ReadLine());
 
-        if (1900 < bYear && bYear < DateTime.Now.Year)
-        {
-            Console.WriteLine("Now You are {0} years old\nAfter Ten years You will be {1} years old"
-                                , ageNow, ageNow + 10);
-        }
-        else
-        {
-            Console.WriteLine("You have entered an invalid year");
-        }
-
+        Console.WriteLine("After ten years, in " + (currentYear + 10) +
+                            ", You will be " + (age + 10) + " years old");
     }
 }
