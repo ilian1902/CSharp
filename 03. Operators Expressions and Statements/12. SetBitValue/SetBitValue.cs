@@ -1,5 +1,9 @@
-﻿//We are given integer number n, value v (v=0 or 1) and a position p. 
-//Write a sequence of operators that modifies n to hold the value v at the position p from the binary representation of n.
+﻿/*
+ * We are given integer number n, value v (v=0 or 1) and a position p. 
+ * Write a sequence of operators that modifies n to hold the value v at the position p 
+ * from the binary representation of n.
+ */
+
 using System;
 class SetBitValue
 {

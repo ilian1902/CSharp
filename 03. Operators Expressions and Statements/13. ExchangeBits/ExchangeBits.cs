@@ -1,4 +1,5 @@
 ﻿//Write a program that exchanges bits 3, 4 and 5 with bits 24, 25 and 26 of given 32-bit unsigned integer.
+
 using System;
 class ExchangeBits
 {
@@ -8,7 +9,8 @@ class ExchangeBits
         uint number = uint.Parse(Console.ReadLine());
         uint maskFirst = 56u;        // 0000 0000 0000 0000 0000 0000 0011 1000
         uint maskLast = 117440512u;  // 0000 0111 0000 0000 0000 0000 0000 0000
-        Console.WriteLine("The binary represantation of the number is: \n" + Convert.ToString(number, 2).PadLeft(32, '0'));
+        Console.WriteLine("The binary represantation of the number is: \n"
+                            + Convert.ToString(number, 2).PadLeft(32, '0'));
         uint first3Bits = number & maskFirst;
         uint last3Bits = number & maskLast;
 
@@ -20,6 +22,7 @@ class ExchangeBits
 
         number = number | first3Bits;
         number = number | last3Bits;
+
         Console.WriteLine(Convert.ToString(number, 2).PadLeft(32, '0'));
     }
 }
