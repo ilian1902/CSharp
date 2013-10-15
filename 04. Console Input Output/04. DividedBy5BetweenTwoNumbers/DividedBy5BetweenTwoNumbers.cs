@@ -1,6 +1,9 @@
-﻿//Write a program that reads two positive integer numbers 
-//and prints how many numbers p exist between them 
-//such that the reminder of the division by 5 is 0 (inclusive). 
+﻿/*
+ * Write a program that reads two positive integer numbers 
+ * and prints how many numbers p exist between them 
+ * such that the reminder of the division by 5 is 0 (inclusive). 
+ */
+
 using System;
 class DividedBy5BetweenTwoNumbers
 {
@@ -20,7 +23,8 @@ class DividedBy5BetweenTwoNumbers
                 counter++;
             }
         }
+
         Console.WriteLine("There are {0} numbers between {1} and {2}, that the reminder of their division by 5 is 0"
-            , counter, first, second);
+                            , counter, first, second);
     }
 }

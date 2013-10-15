@@ -1,6 +1,9 @@
-﻿//Write a program that gets a number n 
-//and after that gets more n numbers 
-//and calculates and prints their sum.
+﻿/*
+ * Write a program that gets a number n 
+ * and after that gets more n numbers
+ * and calculates and prints their sum.
+ */
+
 using System;
 class SumOfNumbers
 {
@@ -16,6 +19,7 @@ class SumOfNumbers
             int value = int.Parse(Console.ReadLine());
             sum += value;
         }
-        Console.WriteLine("The sum of the {0} numbers is {1}", n, sum);
+        Console.WriteLine("The sum of the {0} numbers is {1}"
+                            , n, sum);
     }
 }

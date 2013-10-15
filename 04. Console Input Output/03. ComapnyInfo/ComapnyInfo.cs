@@ -1,7 +1,10 @@
-﻿//A company has name, address, phone number, fax number, web site and manager. 
-//The manager has first name, last name, age and a phone number. 
-//Write a program that reads the information about a company and its manager 
-//and prints them on the console.
+﻿/*
+ * A company has name, address, phone number, fax number, web site and manager. 
+ * The manager has first name, last name, age and a phone number. 
+ * Write a program that reads the information about a company and its manager 
+ * and prints them on the console.
+ */
+
 using System;
 class ComapnyInfo
 {
@@ -28,7 +31,8 @@ class ComapnyInfo
         string mPhone = Console.ReadLine();
 
         Console.WriteLine("{0}\nIs situated in {1}\nYou can contact us by\nPhone Number: {2}\nFax Number: {3}\nOr vist our Website: {4}\n"
-            , cName, cAddress, cPhone, cFax, cWebSite);
-        Console.WriteLine("CEO of {0}\n{1} {2}, {3} years old\nPhone Number:{4}", cName, mFName, mLName, mAge, mPhone);
+                            , cName, cAddress, cPhone, cFax, cWebSite);
+        Console.WriteLine("CEO of {0}\n{1} {2}, {3} years old\nPhone Number:{4}"
+                            , cName, mFName, mLName, mAge, mPhone);
     }
 }
