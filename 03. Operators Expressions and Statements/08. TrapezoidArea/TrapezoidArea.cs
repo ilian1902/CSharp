@@ -16,6 +16,7 @@ class TrapezoidArea
 
         decimal area = (a + b) / 2 * h;
 
-        Console.WriteLine("Trapezoid's Area is: {0}", area);
+        Console.WriteLine("Trapezoid's Area is: {0}"
+                            , area);
     }
 }

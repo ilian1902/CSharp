@@ -13,9 +13,11 @@ class DeclareObject
         string world = "World";
 
         object obj = hello + " " + world;
-        Console.WriteLine("The object variable has this value: {0}", obj);
+        Console.WriteLine("The object variable has this value: {0}"
+                            , obj);
 
         string str = (string)(obj);
-        Console.WriteLine("The string variable has this value: {0}", str);
+        Console.WriteLine("The string variable has this value: {0}"
+                            , str);
     }
 }

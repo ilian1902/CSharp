@@ -9,6 +9,6 @@ class DeclareBool
     static void Main()
     {
         var isFemale = false;
-        Console.WriteLine("You are female is " + isFemale);
+        Console.WriteLine("I am female is " + isFemale);
     }
 }

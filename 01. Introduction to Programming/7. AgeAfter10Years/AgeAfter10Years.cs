@@ -8,10 +8,10 @@ class AgeAfter10Years
     {
         int currentYear = DateTime.Now.Year;
 
-        Console.WriteLine("Enter the age You are/will be this year: " + currentYear);
+        Console.WriteLine("Enter the age You are/will be this year {0}: ", currentYear);
         int age = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("After ten years, in " + (currentYear + 10) +
-                            ", You will be " + (age + 10) + " years old");
+        Console.WriteLine("After ten years, in {0} , You will be {1} years old"
+                            , currentYear + 10, age + 10);
     }
 }

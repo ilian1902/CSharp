@@ -19,9 +19,13 @@ class EmployeeRecord
         ulong id = 9999999999;
         ushort uen = 9999;
 
-        Console.WriteLine("Name:{0} {1}", name, family);
-        Console.WriteLine("{0}, {1} years old", gender, age);
-        Console.WriteLine("ID Number: {0}", id);
-        Console.WriteLine("UEN: 2756{0, 0:D4}", uen);
+        Console.WriteLine("Name:{0} {1}"
+                            , name, family);
+        Console.WriteLine("{0}, {1} years old"
+                            , gender, age);
+        Console.WriteLine("ID Number: {0}"
+                            , id);
+        Console.WriteLine("UEN: 2756{0, 0:D4}"
+                            , uen);
     }
 }

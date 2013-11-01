@@ -11,6 +11,7 @@ class RectangleArea
         Console.WriteLine("Enter rectangle's Height:");
         decimal height = decimal.Parse(Console.ReadLine());
 
-        Console.WriteLine("Rectangle's Area is :{0}", width * height);
+        Console.WriteLine("Rectangle's Area is :{0}"
+                            , width * height);
     }
 }

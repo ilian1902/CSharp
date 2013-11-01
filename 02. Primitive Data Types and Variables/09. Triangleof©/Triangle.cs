@@ -18,7 +18,7 @@ class Triangle
         Console.WriteLine("  {0}\n {0}{0}{0}\n{0}{0}{0}{0}{0}", copyRight);
 
         //or using 'for'loop
-        Console.WriteLine("Enter the lenght of the hypotenuse[prefered to be odd number]");
+        Console.WriteLine("Enter the lenght of the hypotenuse [prefered to be odd number]");
         int hypotenuse = int.Parse(Console.ReadLine());
 
         for (int i = hypotenuse / 2; i >= 0; i--)

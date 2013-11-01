@@ -15,7 +15,7 @@ class FloatOrDouble
         double third = 8923.1234857D;
         float fourth = 3456.091F;
 
-        Console.WriteLine("{0}\n{1}\n{2}\n{3}"
+        Console.WriteLine("double {0}\nfloat {1}\ndouble {2}\nfloat {3}"
                             , first, second, third, fourth);
     }
 }

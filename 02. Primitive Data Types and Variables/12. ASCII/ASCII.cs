@@ -13,7 +13,7 @@ class ASCII
         for (int code = 0; code <= 255; code++)
         {
             char symbol = (char)code;
-            Console.WriteLine("{0} {1}"
+            Console.WriteLine("{0,3} {1}"
                                 , code, symbol);
         }
     }
