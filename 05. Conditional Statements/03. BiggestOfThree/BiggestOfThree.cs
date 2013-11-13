@@ -14,35 +14,45 @@ class BiggestOfThree
         Console.WriteLine("Enter the third integer");
         int third = int.Parse(Console.ReadLine());
 
+
         if (first > second && first > third)
         {
-            Console.WriteLine("The biggest number is : {0}", first);
+            Console.WriteLine("The biggest number is : {0}"
+                                , first);
         }
         if (second > first && second > third)
         {
-            Console.WriteLine("The biggest number is : {0}", second);
+            Console.WriteLine("The biggest number is : {0}"
+                                , second);
         }
         if (third > first && third > second)
         {
-            Console.WriteLine("The biggest number is : {0}", third);
+            Console.WriteLine("The biggest number is : {0}"
+                                , third);
         }
+
         if ((first == second) && first > third)
         {
-            Console.WriteLine("The biggest number is : {0} and it is equal to {1}", first, second);
+            Console.WriteLine("The biggest number is : {0} and it is equal to {1}"
+                                , first, second);
         }
 
         if ((first == third) && first > second)
         {
-            Console.WriteLine("The biggest number is :{0} and it is equal to {1}", first, third);
+            Console.WriteLine("The biggest number is :{0} and it is equal to {1}"
+                                , first, third);
         }
 
         if ((second == third) && second > first)
         {
-            Console.WriteLine("The biggest number is :{0} and it is equal to {1}", second, third);
+            Console.WriteLine("The biggest number is :{0} and it is equal to {1}"
+                                , second, third);
         }
+
         if ((first == second) && (first == third) && (second == third))
         {
-            Console.WriteLine("All three numbers are equal: {0} = {1} = {2}", first, second, third);
+            Console.WriteLine("All three numbers are equal: {0} = {1} = {2}"
+                                , first, second, third);
         }
     }
 }

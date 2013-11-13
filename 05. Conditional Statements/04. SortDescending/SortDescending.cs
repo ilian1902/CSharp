@@ -32,6 +32,7 @@ class SortDescending
             third = second - third;
             second = second - third;
         }
-        Console.WriteLine("{0} {1} {2}", first, second, third);
+        Console.WriteLine("{0} {1} {2}"
+                            , first, second, third);
     }
 }

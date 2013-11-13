@@ -13,6 +13,7 @@ class UserInput
     {
         Console.WriteLine("Please enter:\n1 for Integer\n2 for Double\n3 for String");
         byte choice = byte.Parse(Console.ReadLine());
+
         switch (choice)
         {
             case 1:

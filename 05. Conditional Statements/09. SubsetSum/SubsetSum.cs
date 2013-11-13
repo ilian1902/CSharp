@@ -159,7 +159,8 @@ class SubsetSum
         //Display result
         if (counter >= 1)
         {
-            Console.WriteLine("There are {0} subset sums, that are 0", counter);
+            Console.WriteLine("There are {0} subset sums, that are 0"
+                                , counter);
         }
         else
         {

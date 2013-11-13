@@ -24,6 +24,7 @@ class ShowSign
         {
             Console.WriteLine("The product is 0");
         }
+
         else
         {
             if (first < 0)
@@ -38,6 +39,7 @@ class ShowSign
             {
                 signCounter++;
             }
+
             if (signCounter % 2 == 0)
             {
                 Console.WriteLine("The sign of the product is + ");

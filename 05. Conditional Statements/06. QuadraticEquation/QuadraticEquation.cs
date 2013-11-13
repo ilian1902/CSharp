@@ -19,7 +19,6 @@ class QuadraticEquation
         Console.WriteLine("Enter value of c :");
         double c = double.Parse(Console.ReadLine());
 
-        //Calculating the discriminant of the square root
         double discriminant = (b * b) - 4 * a * c;
 
         if (a == 0)
