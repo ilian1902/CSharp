@@ -1,21 +1,26 @@
 ConsoleInputOutput
 ==================
-1. Write a program that reads 3 integer numbers from the console and prints their sum.
 
-2. Write a program that reads the radius r of a circle and prints its perimeter and area.
+1. Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one.
 
-3. A company has name, address, phone number, fax number, web site and manager. The manager has first name, last name, age and a phone number. Write a program that reads the information about a company and its manager and prints them on the console.
+2. Write a program that shows the sign (+ or -) of the product of three real numbers without calculating it. Use a sequence of if statements.
 
-4. Write a program that reads two positive integer numbers and prints how many numbers p exist between them such that the reminder of the division by 5 is 0 (inclusive). Example: p(17,25) = 2.
+3. Write a program that finds the biggest of three integers using nested if statements.
 
-5. Write a program that gets two numbers from the console and prints the greater of them. Don’t use if statements.
+4. Sort 3 real values in descending order using nested if statements.
 
-6. Write a program that reads the coefficients a, b and c of a quadratic equation ax2+bx+c=0 and solves it (prints its real roots).
+5. Write program that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement.
 
-7. Write a program that gets a number n and after that gets more n numbers and calculates and prints their sum. 
+6. Write a program that enters the coefficients a, b and c of a quadratic equation
+		a*x2 + b*x + c = 0 and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.
 
-8. Write a program that reads an integer number n from the console and prints all the numbers in the interval [1..n], each on a single line.
+7. Write a program that finds the greatest of given 5 variables.
 
-9. Write a program to print the first 100 members of the sequence of Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, …
+8. Write a program that, depending on the user's choice inputs int, double or string variable. If the variable is integer or double, increases it with 1. If the variable is string, appends "*" at its end. The program must show the value of that variable as a console output. Use switch statement.
 
-10. Write a program to calculate the sum (with accuracy of 0.001): 1 + 1/2 - 1/3 + 1/4 - 1/5 + ...
+9. We are given 5 integer numbers. Write a program that checks if the sum of some subset of them is 0. Example: 3, -2, 1, 1, 8  1+1-2=0.
+
+10. Write a program that applies bonus scores to given scores in the range [1..9]. The program reads a digit as an input. If the digit is between 1 and 3, the program multiplies it by 10; if it is between 4 and 6, multiplies it by 100; if it is between 7 and 9, multiplies it by 1000. If it is zero or if the value is not a digit, the program must report an error.
+		Use a switch statement and at the end print the calculated new value in the console.
+
+11. Write a program that converts a number in the range [0...999] to a text corresponding to its English pronunciation.
