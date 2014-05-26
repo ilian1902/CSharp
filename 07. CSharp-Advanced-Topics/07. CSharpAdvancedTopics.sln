@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. FibonacciNumbers", "01. FibonacciNumbers\01. FibonacciNumbers.csproj", "{D37659A1-7452-4FD7-8534-6648BDF063B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. PrimeChecker", "02. PrimeChecker\02. PrimeChecker.csproj", "{14FBBA0F-B823-45CC-BF3B-A801166A7D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D37659A1-7452-4FD7-8534-6648BDF063B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37659A1-7452-4FD7-8534-6648BDF063B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37659A1-7452-4FD7-8534-6648BDF063B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37659A1-7452-4FD7-8534-6648BDF063B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FBBA0F-B823-45CC-BF3B-A801166A7D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FBBA0F-B823-45CC-BF3B-A801166A7D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FBBA0F-B823-45CC-BF3B-A801166A7D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FBBA0F-B823-45CC-BF3B-A801166A7D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
