@@ -12,7 +12,9 @@ class LongSequence
         int counter = 1000;
         int startNumber = 2;
 
-        Console.SetBufferSize(100, counter + startNumber);
+        Console.SetBufferSize(80, counter + startNumber);
+        /*The size of Console screen is set here 
+        according to the lenght of the sequence*/
 
         for (int i = startNumber; i < counter + startNumber; i++)
         {

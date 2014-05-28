@@ -10,12 +10,18 @@ class Sequence
     static void Main()
     {
         byte counter = 10;
+        byte start = 2;
 
-        for (int i = 2; i <= counter; i++)
+        for (int i = start; i < start + counter; i++)
         {
-            Console.WriteLine(i);
-            i++;
-            Console.WriteLine(-i);
+            if (i % 2 == 0)
+            {
+                Console.WriteLine(i);
+            }
+            else
+            {
+                Console.WriteLine(-i);
+            }
         }
     }
 }
