@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6216CA77-6C22-4182-9C42-BE0C9D4D0CB2}</ProjectGuid>
+    <ProjectGuid>{9FC5ACD8-C919-4846-88AB-2F49B2B2A453}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.FloatOrDouble</RootNamespace>
-    <AssemblyName>_02.FloatOrDouble</AssemblyName>
+    <RootNamespace>_09.ExchangeVariableValues</RootNamespace>
+    <AssemblyName>_09.ExchangeVariableValues</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FloatOrDouble.cs" />
+    <Compile Include="ExchangeVariableValues.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

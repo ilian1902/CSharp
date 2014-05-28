@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6216CA77-6C22-4182-9C42-BE0C9D4D0CB2}</ProjectGuid>
+    <ProjectGuid>{9B087CC2-AA3C-4D8E-B46A-9E51300AC3A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.FloatOrDouble</RootNamespace>
-    <AssemblyName>_02.FloatOrDouble</AssemblyName>
+    <RootNamespace>_03.VariableInHexadecimalFormat</RootNamespace>
+    <AssemblyName>_03.VariableInHexadecimalFormat</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FloatOrDouble.cs" />
+    <Compile Include="VariableInHexadecimalFormat.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

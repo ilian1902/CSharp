@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6216CA77-6C22-4182-9C42-BE0C9D4D0CB2}</ProjectGuid>
+    <ProjectGuid>{A78E95E7-95BC-4511-BF27-B136CEF6D1F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.FloatOrDouble</RootNamespace>
-    <AssemblyName>_02.FloatOrDouble</AssemblyName>
+    <RootNamespace>_07.QuotesInStrings</RootNamespace>
+    <AssemblyName>_07.QuotesInStrings</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FloatOrDouble.cs" />
+    <Compile Include="QuotesInStrings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
