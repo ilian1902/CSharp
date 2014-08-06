@@ -31,7 +31,7 @@ class BankAccountData
                             , balance, bankName);
         Console.WriteLine("Personal Account Information\nIBAN:{0}\nBIC:{1}"
                             , iban, bic);
-        Console.WriteLine("Credit Card(s) Number:\n{0}\n{1}\n{2}"
+        Console.WriteLine("Credit Card(s) Number:\n-{0}\n-{1}\n-{2}"
                             , creditCard1, creditCard2, creditCard3);
     }
 }
