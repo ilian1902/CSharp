@@ -5,15 +5,7 @@
  * (like 5♠, A♥, 9♣ and K♦). 
  * The card faces should start from 2 to A. 
  * Print each card face in its four possible suits: 
- * clubs, diamonds, hearts and spades. 
- * Use 2 nested for-loops and a switch-case statement.
-output
-2♣ 2♦ 2♥ 2♠
-3♣ 3♦ 3♥ 3♠
-…
-K♣ K♦ K♥ K♠
-A♣ A♦ A♥ A♠
-
+ * clubs, diamonds, hearts and spades.
  */
 
 using System;
@@ -32,10 +24,8 @@ class DeckOf52Cards
             Console.WriteLine();
             for (int j = 1; j <= 4; j++)
             {
-
                 switch (i)
                 {
-
                     case 2: Console.Write("2");
                         break;
                     case 3: Console.Write("3");

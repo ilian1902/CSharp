@@ -9,7 +9,7 @@ class PrintFullName
 {
     static void Main()
     {
-        Console.WriteLine("Bobby");
-        Console.WriteLine("Digital");
+        Console.WriteLine("Boyan");
+        Console.WriteLine("Todorov");
     }
 }

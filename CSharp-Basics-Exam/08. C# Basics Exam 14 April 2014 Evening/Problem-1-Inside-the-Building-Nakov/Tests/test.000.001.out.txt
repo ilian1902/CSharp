@@ -1,5 +1,0 @@
-outside
-outside
-inside
-inside
-inside

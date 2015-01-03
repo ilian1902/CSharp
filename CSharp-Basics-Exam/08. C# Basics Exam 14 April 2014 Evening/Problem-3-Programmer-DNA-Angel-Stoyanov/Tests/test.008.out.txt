@@ -1,7 +1,0 @@
-...B...
-..CDE..
-.FGABC.
-DEFGABC
-.DEFGA.
-..BCD..
-...E...

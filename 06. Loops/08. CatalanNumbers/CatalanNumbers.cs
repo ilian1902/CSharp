@@ -1,7 +1,6 @@
 ﻿/*
  *In combinatorics, the Catalan numbers are calculated by the following formula:
   (2N)! / (N+1)! * N!
-
  * Write a program to calculate the nth Catalan number 
  * by given n (1 < n < 100). 
  * Examples:
@@ -24,7 +23,6 @@ class CatalanNumbers
 
         BigInteger divident = 1;
         BigInteger divider = 1;
-
         if (n > 0 && n < 100)
         {
             for (int i = 2 * n; i > n + 1; i--)
@@ -35,9 +33,7 @@ class CatalanNumbers
             {
                 divider *= i;
             }
-
             BigInteger result = divident / divider;
-
             Console.WriteLine("The {0} Catalan number is: {1}", n, result);
         }
         else

@@ -1,5 +1,6 @@
 ﻿/*
  * Declare two string variables and assign them with “Hello” and “World”. 
+ * 
  * Declare an object variable and assign it 
  * with the concatenation of the first two variables 
  * (mind adding an interval between). 
@@ -22,7 +23,6 @@ class StringsAndObjects
         Console.WriteLine("The object variable has this value: {0}", obj);
 
         string str = (string)(obj);
-        Console.WriteLine("The string variable has this value: {0}"
-                            , str);
+        Console.WriteLine("The string variable has this value: {0}", str);
     }
 }

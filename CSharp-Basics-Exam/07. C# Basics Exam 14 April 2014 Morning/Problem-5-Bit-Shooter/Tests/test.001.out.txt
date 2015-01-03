@@ -1,2 +1,0 @@
-left: 8
-right: 15

@@ -1,3 +1,0 @@
-example
-java
-5000000

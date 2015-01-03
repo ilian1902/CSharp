@@ -1,23 +1,7 @@
 ﻿/*
  * Write a program that enters a number n 
  * and after that enters more n numbers and calculates and prints their sum. 
- * Note that you may need to use a for-loop. 
- * Examples:
-numbers	sum
-3       90
-20
-60
-10
-numbers	sum
-5       6.5
-2
--1
--0.5
-4
-2	
-numbers	sum
-1       1
-1	
+ * Note that you may need to use a for-loop.
  */
 
 using System;
@@ -32,11 +16,10 @@ class SumOfNumbers
 
         for (double i = 0; i < n; i++)
         {
-            Console.WriteLine("Enter a number");
+            Console.WriteLine("Enter the {0} number", i + 1);
             double value = double.Parse(Console.ReadLine());
             sum += value;
         }
-        Console.WriteLine("The sum of the {0} numbers is {1}"
-                            , n, sum);
+        Console.WriteLine("Sum: {0}", sum);
     }
 }

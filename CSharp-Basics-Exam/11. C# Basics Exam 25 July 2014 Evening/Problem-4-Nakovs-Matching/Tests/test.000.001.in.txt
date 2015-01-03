@@ -1,3 +1,0 @@
-hello
-csharp
-20000

@@ -8,6 +8,8 @@ class PrintNumbers
 {
     static void Main()
     {
-        Console.WriteLine("1\n101\n1001");
+        Console.WriteLine("1");
+        Console.Write("101");
+        Console.WriteLine("\n1001");
     }
 }

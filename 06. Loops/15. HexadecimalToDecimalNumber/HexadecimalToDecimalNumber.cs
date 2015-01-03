@@ -3,13 +3,7 @@
  * a hexadecimal integer number to its decimal form. 
  * The input is entered as string. 
  * The output should be a variable of type long. 
- * Do not use the built-in .NET functionality. 
- * Examples:
-hexadecimal	decimal
-FE	        254
-1AE3	    6883
-4ED528CBB4	338583669684
-
+ * Do not use the built-in .NET functionality.
  */
 
 using System;
@@ -20,7 +14,6 @@ class HexadecimalToDecimalNumber
     {
         Console.WriteLine("Enter a hexadecimal integer number :");
         string hex = Console.ReadLine();
-
         long number = 0;
         long power = 1;
 
@@ -44,7 +37,6 @@ class HexadecimalToDecimalNumber
                 default: sign = hex[i] - 48;
                     break;
             }
-
             number += sign * power;
             power *= 16;
         }

@@ -3,14 +3,7 @@
  * an integer number to its binary representation. 
  * The input is entered as long. 
  * The output should be a variable of type string. 
- * Do not use the built-in .NET functionality. 
- * Examples:
-decimal	    binary
-0	        0
-3	        11
-43691	    1010101010101011
-236476736	1110000110000101100101000000
-
+ * Do not use the built-in .NET functionality.
  */
 
 using System;
@@ -20,6 +13,7 @@ class DecimalToBinaryNumber
 {
     static void Main()
     {
+        Console.WriteLine("Enter an integer number :");
         long dec = long.Parse(Console.ReadLine());
         long remainder;
         StringBuilder binary = new StringBuilder();

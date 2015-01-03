@@ -1,1 +1,0 @@
-OddSum=No, OddMin=No, OddMax=No, EvenSum=No, EvenMin=No, EvenMax=No

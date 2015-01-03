@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Numbers1ToN", "01. Numbers1ToN\01. Numbers1ToN.csproj", "{CDCD144B-119C-4907-948A-66850C2FB893}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. NumbersNotDivisibleBy3And7", "02. NumbersNotDivisibleBy3And7\02. NumbersNotDivisibleBy3And7.csproj", "{578E3E0C-F497-475E-9123-E616126DB192}"
@@ -9,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. MinMaxSumAndAverageOfNN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. DeckOf52Cards", "04. DeckOf52Cards\04. DeckOf52Cards.csproj", "{0A154705-581A-4293-A9CB-B1BC68495C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Combinatorics", "07. Combinatorics\07. Combinatorics.csproj", "{145BD94A-C224-4067-BBA3-08F1596ED6C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Combinations", "07. Combinatorics\07. Combinations.csproj", "{145BD94A-C224-4067-BBA3-08F1596ED6C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. CatalanNumbers", "08. CatalanNumbers\08. CatalanNumbers.csproj", "{EE49458C-B0F5-4107-952E-8FDB2C3CCFB0}"
 EndProject
@@ -34,6 +36,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. FactorialSum", "05. FactorialSum\05. FactorialSum.csproj", "{CF563BED-973E-405E-8406-0879FEBDC28E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. FactorialDivision", "06. FactorialDivision\06. FactorialDivision.csproj", "{F74A82AC-B910-41D0-A2EF-66AFE9E20360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. DecimalToHexadecimalNumber", "16. DecimalToHexadecimalNumber\16. DecimalToHexadecimalNumber.csproj", "{C5E8E737-5BFD-49E4-ABC5-7A59EC4789CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,10 @@ Global
 		{F74A82AC-B910-41D0-A2EF-66AFE9E20360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74A82AC-B910-41D0-A2EF-66AFE9E20360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74A82AC-B910-41D0-A2EF-66AFE9E20360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E8E737-5BFD-49E4-ABC5-7A59EC4789CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E8E737-5BFD-49E4-ABC5-7A59EC4789CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E8E737-5BFD-49E4-ABC5-7A59EC4789CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E8E737-5BFD-49E4-ABC5-7A59EC4789CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

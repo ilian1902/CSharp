@@ -8,7 +8,8 @@ Company name:	    Software University
 Company address:	26 V. Kanchev, Sofia
 Phone number:	    +359 899 55 55 92
 Fax number:	
-Web site:	        http://softuni.bg
+Web site:	        http://softuni.bg
+
 Manager first name:	Svetlin
 Manager last name:	Nakov
 Manager age:	    25
@@ -28,24 +29,24 @@ class PrintCompanyInformation
 {
     static void Main()
     {
-        Console.WriteLine("Write down Company's Name");
+        Console.WriteLine("Company name:");
         string cName = Console.ReadLine();
-        Console.WriteLine("Write down Company's Address");
+        Console.WriteLine("Company address:");
         string cAddress = Console.ReadLine();
-        Console.WriteLine("Write down Company's Phone number");
+        Console.WriteLine("Phone number:");
         string cPhone = Console.ReadLine();
-        Console.WriteLine("Write down Company's Fax number");
+        Console.WriteLine("Fax number:");
         string cFax = Console.ReadLine();
-        Console.WriteLine("Write down Company's Web Site");
+        Console.WriteLine("Web site:");
         string cWebSite = Console.ReadLine();
-        Console.WriteLine("Write down Manager's First Name");
+        Console.WriteLine("Manager first name:");
         string manager = Console.ReadLine();
         string mFName = Console.ReadLine();
-        Console.WriteLine("Write down Manager's Last Name");
+        Console.WriteLine("Manager last name:");
         string mLName = Console.ReadLine();
-        Console.WriteLine("Write down Manager's Age");
+        Console.WriteLine("Manager age:");
         string mAge = (Console.ReadLine());
-        Console.WriteLine("Write down Manager's Phone number");
+        Console.WriteLine("Manager phone:");
         string mPhone = Console.ReadLine();
         Console.Clear();
 
@@ -53,6 +54,5 @@ class PrintCompanyInformation
                             , cName, cAddress, cPhone, cFax, cWebSite);
         Console.WriteLine("Manager: {0} {1} (age: {2}, tel. {3})"
                             , mFName, mLName, mAge, mPhone);
-
     }
 }

@@ -15,54 +15,17 @@ class TheBiggestOf3Numbers
 {
     static void Main()
     {
-        Console.WriteLine("Enter the first number");
-        double first = double.Parse(Console.ReadLine());
-
-        Console.WriteLine("Enter the second number");
-        double second = double.Parse(Console.ReadLine());
-
-        Console.WriteLine("Enter the third number");
-        double third = double.Parse(Console.ReadLine());
-
-
-        if (first > second && first > third)
+        double biggest = double.MinValue;
+        double current;
+        for (int i = 1; i <= 3; i++)
         {
-            Console.WriteLine("The biggest number is : {0}"
-                                , first);
+            Console.WriteLine("Enter the {0} number", i);
+            current = double.Parse(Console.ReadLine());
+            if (current > biggest)
+            {
+                biggest = current;
+            }
         }
-        if (second > first && second > third)
-        {
-            Console.WriteLine("The biggest number is : {0}"
-                                , second);
-        }
-        if (third > first && third > second)
-        {
-            Console.WriteLine("The biggest number is : {0}"
-                                , third);
-        }
-
-        if ((first == second) && first > third)
-        {
-            Console.WriteLine("The biggest number is : {0} and it is equal to {1}"
-                                , first, second);
-        }
-
-        if ((first == third) && first > second)
-        {
-            Console.WriteLine("The biggest number is :{0} and it is equal to {1}"
-                                , first, third);
-        }
-
-        if ((second == third) && second > first)
-        {
-            Console.WriteLine("The biggest number is :{0} and it is equal to {1}"
-                                , second, third);
-        }
-
-        if ((first == second) && (first == third) && (second == third))
-        {
-            Console.WriteLine("All three numbers are equal: {0} = {1} = {2}"
-                                , first, second, third);
-        }
+        Console.WriteLine("The biggest number is: {0}", biggest);
     }
 }

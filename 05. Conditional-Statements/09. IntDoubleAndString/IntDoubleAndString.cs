@@ -4,24 +4,7 @@
  * If the variable is int or double, the program increases it by one. 
  * If the variable is a string, the program appends "*" at the end. 
  * Print the result at the console. 
- * Use switch statement. 
- * Example:
-program	                user
-Please choose a type:
-1 --> int
-2 --> double
-3 --> string	        3
-Please enter a string:	hello
-hello*	
-
-program	                user
-Please choose a type:
-1 --> int
-2 --> double
-3 --> string	        2
-Please enter a double:	1.5
-2.5	
-
+ * Use switch statement.
  */
 
 using System;

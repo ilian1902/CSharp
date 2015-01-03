@@ -19,10 +19,8 @@ class MultiplicationSign
     {
         Console.WriteLine("Enter the first number");
         double first = double.Parse(Console.ReadLine());
-
         Console.WriteLine("Enter the second number");
         double second = double.Parse(Console.ReadLine());
-
         Console.WriteLine("Enter the third number");
         double third = double.Parse(Console.ReadLine());
 
